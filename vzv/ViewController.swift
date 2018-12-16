@@ -13,10 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var textName: UITextField!
     @IBOutlet weak var labelShowName: UILabel!
     @IBAction func buttonClick(_ sender: Any) {
-        
+      print("hallo")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("hallo")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
