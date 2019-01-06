@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A761EDB721C308C400007E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A761EDB621C308C400007E9D /* AppDelegate.swift */; };
-		A761EDB921C308C500007E9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A761EDB821C308C500007E9D /* ViewController.swift */; };
-		A761EDBC21C308C500007E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A761EDBA21C308C500007E9D /* Main.storyboard */; };
-		A761EDBE21C308CE00007E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A761EDBD21C308CE00007E9D /* Assets.xcassets */; };
-		A761EDC121C308CE00007E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A761EDBF21C308CE00007E9D /* LaunchScreen.storyboard */; };
+		A72E8CB221E288FB00C43951 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A72E8CAF21E288FB00C43951 /* Info.plist */; };
+		A72E8CBA21E28A7000C43951 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = A72E8CB721E28A7000C43951 /* pic.png */; };
+		A72E8CC421E28AB800C43951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72E8CBC21E28AB800C43951 /* AppDelegate.swift */; };
+		A72E8CC521E28AB800C43951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72E8CBD21E28AB800C43951 /* Assets.xcassets */; };
+		A72E8CC621E28AB800C43951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72E8CBE21E28AB800C43951 /* LaunchScreen.storyboard */; };
+		A72E8CC721E28AB800C43951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72E8CC021E28AB800C43951 /* Main.storyboard */; };
+		A72E8CC821E28AB800C43951 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A72E8CC221E28AB800C43951 /* Info.plist */; };
+		A72E8CC921E28AB800C43951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72E8CC321E28AB800C43951 /* ViewController.swift */; };
 		A761EDCC21C308CE00007E9D /* vzvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A761EDCB21C308CE00007E9D /* vzvTests.swift */; };
 		A761EDD721C308CE00007E9D /* vzvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A761EDD621C308CE00007E9D /* vzvUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,17 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A761EDB321C308C400007E9D /* vzv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vzv.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A761EDB621C308C400007E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A761EDB821C308C500007E9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A761EDBB21C308C500007E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A761EDBD21C308CE00007E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A761EDC021C308CE00007E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A761EDC221C308CE00007E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A761EDC721C308CE00007E9D /* vzvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vzvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72E8CAF21E288FB00C43951 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vzv/Info.plist; sourceTree = "<group>"; };
+		A72E8CB721E28A7000C43951 /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
+		A72E8CBC21E28AB800C43951 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A72E8CBD21E28AB800C43951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A72E8CBF21E28AB800C43951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A72E8CC121E28AB800C43951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A72E8CC221E28AB800C43951 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72E8CC321E28AB800C43951 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A761EDB321C308C400007E9D /* myCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A761EDC721C308CE00007E9D /* myCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A761EDCB21C308CE00007E9D /* vzvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vzvTests.swift; sourceTree = "<group>"; };
 		A761EDCD21C308CE00007E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A761EDD221C308CE00007E9D /* vzvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vzvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A761EDD221C308CE00007E9D /* myCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A761EDD621C308CE00007E9D /* vzvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vzvUITests.swift; sourceTree = "<group>"; };
 		A761EDD821C308CE00007E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,37 +79,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A72E8CB421E28A7000C43951 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A72E8CB721E28A7000C43951 /* pic.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A72E8CBB21E28AB800C43951 /* vzv */ = {
+			isa = PBXGroup;
+			children = (
+				A72E8CBC21E28AB800C43951 /* AppDelegate.swift */,
+				A72E8CBD21E28AB800C43951 /* Assets.xcassets */,
+				A72E8CBE21E28AB800C43951 /* LaunchScreen.storyboard */,
+				A72E8CC021E28AB800C43951 /* Main.storyboard */,
+				A72E8CC221E28AB800C43951 /* Info.plist */,
+				A72E8CC321E28AB800C43951 /* ViewController.swift */,
+			);
+			path = vzv;
+			sourceTree = "<group>";
+		};
 		A761EDAA21C308C400007E9D = {
 			isa = PBXGroup;
 			children = (
-				A761EDB521C308C400007E9D /* vzv */,
+				A72E8CB421E28A7000C43951 /* images */,
+				A72E8CBB21E28AB800C43951 /* vzv */,
 				A761EDCA21C308CE00007E9D /* vzvTests */,
 				A761EDD521C308CE00007E9D /* vzvUITests */,
 				A761EDB421C308C400007E9D /* Products */,
+				A72E8CAF21E288FB00C43951 /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		A761EDB421C308C400007E9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A761EDB321C308C400007E9D /* vzv.app */,
-				A761EDC721C308CE00007E9D /* vzvTests.xctest */,
-				A761EDD221C308CE00007E9D /* vzvUITests.xctest */,
+				A761EDB321C308C400007E9D /* myCalculator.app */,
+				A761EDC721C308CE00007E9D /* myCalculatorTests.xctest */,
+				A761EDD221C308CE00007E9D /* myCalculatorUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A761EDB521C308C400007E9D /* vzv */ = {
-			isa = PBXGroup;
-			children = (
-				A761EDB621C308C400007E9D /* AppDelegate.swift */,
-				A761EDB821C308C500007E9D /* ViewController.swift */,
-				A761EDBA21C308C500007E9D /* Main.storyboard */,
-				A761EDBD21C308CE00007E9D /* Assets.xcassets */,
-				A761EDBF21C308CE00007E9D /* LaunchScreen.storyboard */,
-				A761EDC221C308CE00007E9D /* Info.plist */,
-			);
-			path = vzv;
 			sourceTree = "<group>";
 		};
 		A761EDCA21C308CE00007E9D /* vzvTests */ = {
@@ -128,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A761EDB221C308C400007E9D /* vzv */ = {
+		A761EDB221C308C400007E9D /* myCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A761EDDB21C308CE00007E9D /* Build configuration list for PBXNativeTarget "vzv" */;
+			buildConfigurationList = A761EDDB21C308CE00007E9D /* Build configuration list for PBXNativeTarget "myCalculator" */;
 			buildPhases = (
 				A761EDAF21C308C400007E9D /* Sources */,
 				A761EDB021C308C400007E9D /* Frameworks */,
@@ -140,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = vzv;
+			name = myCalculator;
 			productName = vzv;
-			productReference = A761EDB321C308C400007E9D /* vzv.app */;
+			productReference = A761EDB321C308C400007E9D /* myCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A761EDC621C308CE00007E9D /* vzvTests */ = {
+		A761EDC621C308CE00007E9D /* myCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A761EDDE21C308CE00007E9D /* Build configuration list for PBXNativeTarget "vzvTests" */;
+			buildConfigurationList = A761EDDE21C308CE00007E9D /* Build configuration list for PBXNativeTarget "myCalculatorTests" */;
 			buildPhases = (
 				A761EDC321C308CE00007E9D /* Sources */,
 				A761EDC421C308CE00007E9D /* Frameworks */,
@@ -158,14 +173,14 @@
 			dependencies = (
 				A761EDC921C308CE00007E9D /* PBXTargetDependency */,
 			);
-			name = vzvTests;
+			name = myCalculatorTests;
 			productName = vzvTests;
-			productReference = A761EDC721C308CE00007E9D /* vzvTests.xctest */;
+			productReference = A761EDC721C308CE00007E9D /* myCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A761EDD121C308CE00007E9D /* vzvUITests */ = {
+		A761EDD121C308CE00007E9D /* myCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A761EDE121C308CE00007E9D /* Build configuration list for PBXNativeTarget "vzvUITests" */;
+			buildConfigurationList = A761EDE121C308CE00007E9D /* Build configuration list for PBXNativeTarget "myCalculatorUITests" */;
 			buildPhases = (
 				A761EDCE21C308CE00007E9D /* Sources */,
 				A761EDCF21C308CE00007E9D /* Frameworks */,
@@ -176,9 +191,9 @@
 			dependencies = (
 				A761EDD421C308CE00007E9D /* PBXTargetDependency */,
 			);
-			name = vzvUITests;
+			name = myCalculatorUITests;
 			productName = vzvUITests;
-			productReference = A761EDD221C308CE00007E9D /* vzvUITests.xctest */;
+			productReference = A761EDD221C308CE00007E9D /* myCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					A761EDB221C308C400007E9D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					A761EDC621C308CE00007E9D = {
 						CreatedOnToolsVersion = 10.1;
@@ -204,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A761EDAE21C308C400007E9D /* Build configuration list for PBXProject "vzv" */;
+			buildConfigurationList = A761EDAE21C308C400007E9D /* Build configuration list for PBXProject "myCalculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A761EDB221C308C400007E9D /* vzv */,
-				A761EDC621C308CE00007E9D /* vzvTests */,
-				A761EDD121C308CE00007E9D /* vzvUITests */,
+				A761EDB221C308C400007E9D /* myCalculator */,
+				A761EDC621C308CE00007E9D /* myCalculatorTests */,
+				A761EDD121C308CE00007E9D /* myCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A761EDC121C308CE00007E9D /* LaunchScreen.storyboard in Resources */,
-				A761EDBE21C308CE00007E9D /* Assets.xcassets in Resources */,
-				A761EDBC21C308C500007E9D /* Main.storyboard in Resources */,
+				A72E8CBA21E28A7000C43951 /* pic.png in Resources */,
+				A72E8CC721E28AB800C43951 /* Main.storyboard in Resources */,
+				A72E8CC821E28AB800C43951 /* Info.plist in Resources */,
+				A72E8CC621E28AB800C43951 /* LaunchScreen.storyboard in Resources */,
+				A72E8CC521E28AB800C43951 /* Assets.xcassets in Resources */,
+				A72E8CB221E288FB00C43951 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A761EDB921C308C500007E9D /* ViewController.swift in Sources */,
-				A761EDB721C308C400007E9D /* AppDelegate.swift in Sources */,
+				A72E8CC921E28AB800C43951 /* ViewController.swift in Sources */,
+				A72E8CC421E28AB800C43951 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,31 +301,31 @@
 /* Begin PBXTargetDependency section */
 		A761EDC921C308CE00007E9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A761EDB221C308C400007E9D /* vzv */;
+			target = A761EDB221C308C400007E9D /* myCalculator */;
 			targetProxy = A761EDC821C308CE00007E9D /* PBXContainerItemProxy */;
 		};
 		A761EDD421C308CE00007E9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A761EDB221C308C400007E9D /* vzv */;
+			target = A761EDB221C308C400007E9D /* myCalculator */;
 			targetProxy = A761EDD321C308CE00007E9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A761EDBA21C308C500007E9D /* Main.storyboard */ = {
+		A72E8CBE21E28AB800C43951 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A761EDBB21C308C500007E9D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A761EDBF21C308CE00007E9D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A761EDC021C308CE00007E9D /* Base */,
+				A72E8CBF21E28AB800C43951 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A72E8CC021E28AB800C43951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72E8CC121E28AB800C43951 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -431,7 +450,7 @@
 		A761EDDC21C308CE00007E9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH95L87NFY;
 				INFOPLIST_FILE = vzv/Info.plist;
@@ -439,8 +458,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "TikTak-Company.vzv";
+				PRODUCT_BUNDLE_IDENTIFIER = "TikTak-Company.myCalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +469,7 @@
 		A761EDDD21C308CE00007E9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH95L87NFY;
 				INFOPLIST_FILE = vzv/Info.plist;
@@ -457,7 +477,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "TikTak-Company.vzv";
+				PRODUCT_BUNDLE_IDENTIFIER = "TikTak-Company.myCalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vzv.app/vzv";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myCalculator.app/myCalculator";
 			};
 			name = Debug;
 		};
@@ -502,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vzv.app/vzv";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myCalculator.app/myCalculator";
 			};
 			name = Release;
 		};
@@ -549,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A761EDAE21C308C400007E9D /* Build configuration list for PBXProject "vzv" */ = {
+		A761EDAE21C308C400007E9D /* Build configuration list for PBXProject "myCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A761EDD921C308CE00007E9D /* Debug */,
@@ -558,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A761EDDB21C308CE00007E9D /* Build configuration list for PBXNativeTarget "vzv" */ = {
+		A761EDDB21C308CE00007E9D /* Build configuration list for PBXNativeTarget "myCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A761EDDC21C308CE00007E9D /* Debug */,
@@ -567,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A761EDDE21C308CE00007E9D /* Build configuration list for PBXNativeTarget "vzvTests" */ = {
+		A761EDDE21C308CE00007E9D /* Build configuration list for PBXNativeTarget "myCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A761EDDF21C308CE00007E9D /* Debug */,
@@ -576,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A761EDE121C308CE00007E9D /* Build configuration list for PBXNativeTarget "vzvUITests" */ = {
+		A761EDE121C308CE00007E9D /* Build configuration list for PBXNativeTarget "myCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A761EDE221C308CE00007E9D /* Debug */,
