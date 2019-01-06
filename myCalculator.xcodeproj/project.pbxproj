@@ -90,12 +90,12 @@
 		A72E8CBB21E28AB800C43951 /* vzv */ = {
 			isa = PBXGroup;
 			children = (
-				A72E8CBC21E28AB800C43951 /* AppDelegate.swift */,
 				A72E8CBD21E28AB800C43951 /* Assets.xcassets */,
+				A72E8CBC21E28AB800C43951 /* AppDelegate.swift */,
+				A72E8CC321E28AB800C43951 /* ViewController.swift */,
 				A72E8CBE21E28AB800C43951 /* LaunchScreen.storyboard */,
 				A72E8CC021E28AB800C43951 /* Main.storyboard */,
 				A72E8CC221E28AB800C43951 /* Info.plist */,
-				A72E8CC321E28AB800C43951 /* ViewController.swift */,
 			);
 			path = vzv;
 			sourceTree = "<group>";
